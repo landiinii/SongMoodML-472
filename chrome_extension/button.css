@@ -1,0 +1,85 @@
+body{
+  text-align: center;
+}
+
+.Hbar{
+  background-color: blue;
+  border-radius: 8px 0 0 8px;
+  height: 20px;
+}
+
+.Sbar{
+  background-color: green;
+  border-radius: 0 8px 8px 0;
+  width: 25%;
+  height: 20px;
+}
+
+.hsBar{
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+}
+
+.happySad{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  max-width: 350px;
+  align-items: center;
+  text-align: center;
+}
+
+.Ebar{
+  background-color: blue;
+  border-radius: 8px 0 0 8px;
+  width: 25%;
+  height: 20px;
+}
+
+.Cbar{
+  background-color: green;
+  border-radius: 0 8px 8px 0;
+  width: 75%;
+  height: 20px;
+}
+
+.ceBar{
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+}
+
+.chillEnergetic{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  max-width: 400px;
+  align-items: center;
+  text-align: center;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

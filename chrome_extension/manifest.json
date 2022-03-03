@@ -1,0 +1,25 @@
+{
+  "name": "Spotify Song Mood",
+  "description": "Reads Spotify playlists and songs and described their mood in confidence intervals",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://open.spotify.com/playlists/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/spotify16.png",
+      "32": "/images/spotify32.png",
+      "48": "/images/spotify64.png",
+      "128": "/images/spotify128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/spotify16.png",
+    "32": "/images/spotify32.png",
+    "48": "/images/spotify64.png",
+    "128": "/images/spotify128.png"
+  }
+}
